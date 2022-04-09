@@ -21,8 +21,11 @@ export default function index({}: Props) {
           <div className="relative overflow-hidden rounded-sm block nextImageParent h-[400px]">
             <Image
               src="/family-meeting.jpg"
-              objectFit="cover"
-              layout="fill"
+              // objectFit="cover"
+              // layout="fill"
+              height={400}
+              width={600}
+              quality={50}
               className="block"
               alt="We work with indviduals"
             />
@@ -53,8 +56,11 @@ export default function index({}: Props) {
           <div className="relative overflow-hidden rounded-sm block nextImageParent h-[400px]">
             <Image
               src="/board-presentation.jpg"
-              objectFit="cover"
-              layout="fill"
+              // objectFit="cover"
+              // layout="fill"
+              height={400}
+              width={600}
+              quality={50}
               className="block"
               alt="We work with indviduals"
             />
