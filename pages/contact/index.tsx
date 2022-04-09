@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
             <div className="px-4 py-16 bg-secondary-200 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
               <div className="max-w-lg mx-auto">
-                <h2 className="font-serif text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                <h2 className="font-serif text-2xl font-extrabold tracking-tight text-primary-700 sm:text-3xl">
                   Get in touch
                 </h2>
                 <p className="mt-3 text-lg font-light leading-6 text-gray-500">
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                   setup a convienient time to talk.
                 </p>
                 <dl className="mt-8 text-base text-gray-500">
-                  <h3 className="font-bold text-gray-600 underline">
+                  <h3 className="font-bold text-secondary-900 underline">
                     Our Office
                   </h3>
                   <div className="my-4">
