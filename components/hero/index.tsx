@@ -23,6 +23,7 @@ export default function index({}: Props) {
           className=" object-right-top "
           priority={true}
           placeholder="blur"
+          blurDataURL="/hero-blur.jpg"
         />
         <div className="bg-gradient-to-b from-secondary-700 to-primary-700 h-full opacity-40 absolute bottom-0 w-full" />
         <div className="bg-gradient-to-t from-primary-800 to-transparent h-1/2 opacity-70 z-20 absolute bottom-0 w-full" />
