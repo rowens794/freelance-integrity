@@ -18,9 +18,9 @@ export default function index({}: Props) {
         <Image
           src="/hero.jpg"
           objectFit="cover"
-          alt="hero"
           layout="fill"
-          className=" object-right-top "
+          alt="hero"
+          className=" object-right-center "
           priority={true}
           placeholder="blur"
           blurDataURL="/hero-blur.jpg"
