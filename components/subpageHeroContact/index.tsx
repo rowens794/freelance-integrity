@@ -16,12 +16,14 @@ export default function index({}: Props) {
           </h1>
         </div>
         <Image
-          src="/contact2.jpg"
+          src="/contact.jpg"
           objectFit="cover"
           alt="hero"
           layout="fill"
           className=" object-right "
           priority={true}
+          placeholder="blur"
+          blurDataURL="/contact-blur.jpg"
         />
         <div className="bg-gradient-to-b from-secondary-700 to-primary-700 h-full opacity-40 absolute bottom-0 w-full" />
         <div className="bg-gradient-to-t from-primary-800 to-transparent h-1/2 opacity-70 z-20 absolute bottom-0 w-full" />

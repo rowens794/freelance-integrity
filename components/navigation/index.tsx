@@ -45,7 +45,7 @@ export default function Index({}: Props) {
           <LinkItem name="Our Clients" href="/clients" />
           <LinkItem name="Services" href="/services" />
           <LinkItem name="Our Team" href="/team" />
-          <LinkItem name="Contact" href="/home" />
+          <LinkItem name="Contact" href="/contact" />
         </ul>
         <ul className="md:hidden flex justify-end">
           <li className="flex items-center">
