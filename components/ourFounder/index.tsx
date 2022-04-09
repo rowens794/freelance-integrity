@@ -55,20 +55,20 @@ export default function index({}: Props) {
           })}
 
           <div className="flex my-4 justify-start flex-col lg:flex-row">
-            <a href="https://www.google.com">
+            <a href="tel:3042317428">
               <button className="flex py-1 mr-4 hover:bg-secondary-200 rounded-sm text-xs  text-secondary-800 font-semibold uppercase ">
                 <PhoneIcon width={18} className="text-primary-500 mx-2" />
                 <p className="my-auto"> {bios["ben-burns"].phone}</p>
               </button>
             </a>
-            <a href="https://www.google.com">
+            <a href="https://www.linkedin.com">
               <button className="flex py-1 mr-4 hover:bg-secondary-200 rounded-sm text-xs  text-secondary-800 font-semibold uppercase ">
                 {/* <PhoneIcon width={18} className="text-primary-500 mx-2" /> */}
                 <LinkedInIcon />
                 <p className="my-auto">LinkedIn</p>
               </button>
             </a>
-            <a href="https://www.google.com">
+            <a href="mailto:ryan@webpagesthatconvert.com">
               <button className="flex py-1 mr-4 hover:bg-secondary-200 rounded-sm text-xs  text-secondary-800 font-semibold uppercase ">
                 <MailIcon width={18} className="text-primary-500 mx-2" />
                 <p className="my-auto"> {bios["ben-burns"].email}</p>

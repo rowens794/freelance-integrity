@@ -15,7 +15,7 @@ export default function Index({}: Props) {
       <ul className="bg-primary-800 flex py-2 gap-4 justify-end px-3">
         <li className="hidden md:block">
           <a
-            href="/about/"
+            href="https://myaccountviewonline.com/login/"
             className="flex gap-1 hover:bg-primary-800 p-2 rounded-sm"
           >
             <UserIcon className="h-4 text-primary-400 align-text-left" />
@@ -27,7 +27,7 @@ export default function Index({}: Props) {
 
         <li className="">
           <a
-            href="/about/"
+            href="tel:3042317428"
             className="flex gap-1 hover:bg-primary-800 p-2 rounded-sm"
           >
             <PhoneIcon className="h-4 text-primary-400 align-text-left" />
@@ -45,7 +45,7 @@ export default function Index({}: Props) {
           <LinkItem name="Our Clients" href="/clients" />
           <LinkItem name="Services" href="/services" />
           <LinkItem name="Our Team" href="/team" />
-          <LinkItem name="Contact" href="/contact" />
+          <LinkItem name="Contact" href="/home" />
         </ul>
         <ul className="md:hidden flex justify-end">
           <li className="flex items-center">
@@ -95,7 +95,11 @@ const MobileMenu = ({ close }: { close: any }) => {
           name="Call Us: (304) 231-7428"
           close={close}
         />
-        <Button href="/clients" name="Get Directions" close={close} />
+        <Button
+          href="https://www.google.com/maps/place/Columbus,+OH/@39.9831302,-83.1309118,11z/data=!3m1!4b1!4m5!3m4!1s0x883889c1b990de71:0xe43266f8cfb1b533!8m2!3d39.9611755!4d-82.9987942"
+          name="Get Directions"
+          close={close}
+        />
       </ul>
     </div>
   );
